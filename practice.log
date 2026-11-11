@@ -1,0 +1,22 @@
+practice.log
+
+```javascript
+// 1. Is Palindrome
+function isPalindrome(str) {
+  // Your code here
+}
+console.log("Is 'racecar' a palindrome?:", isPalindrome("racecar")); 
+console.log("Is 'coding' a palindrome?:", isPalindrome("coding"));  
+
+// 2. Remove Duplicates
+function removeDuplicates(arr) {
+  // Your code here
+}
+console.log("Unique array:", removeDuplicates([1, 2, 2, 3, 4, 4, 4, 5])); 
+
+// 3. Character Counter
+function countChars(str) {
+  // Your code here
+}
+console.log("Character counts:", countChars("apple")); 
+```
