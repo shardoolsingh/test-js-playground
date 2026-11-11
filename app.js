@@ -2,12 +2,14 @@
 import { sayHello } from './hello.js';
 import { resolve } from 'node:path';
 import { readMyFile } from './read-input.js';
+import { reverseString } from './reverseString.js';
 
-const filePath = resolve('./calc.js');
+// const path = resolve('./calc.js'); //asyc
 
-readMyFile(filePath); // async operation
-
-const names = ["Alice", "Bob", "Charlie", "Jeremy", "Ronnie"];
+// readMyFile(path); // async operation
 
 // using forEach
-names.forEach(sayHello);
+// names.forEach(sayHello);
+
+const word = reverseString('oxygen');
+console.log(word);
