@@ -7,7 +7,7 @@ factorial = factorial * (n - 1)
 
 */
 
-function doFactorial(n){
+export function doFactorial(n){
     let factorial = n;
 
     while(n > 1){
@@ -17,7 +17,3 @@ function doFactorial(n){
 
     return factorial;
 }
-
-console.log(doFactorial(5));
-console.log(doFactorial(1)); // 1
-console.log(doFactorial(3)); 
